@@ -9,5 +9,5 @@ repositories {
 }
 
 plugins {
-  id("eu.rigeldev.kuberig") version "0.0.24"
+  id("eu.rigeldev.kuberig") version "0.0.27"
 }
