@@ -11,3 +11,7 @@ repositories {
 plugins {
   id("eu.rigeldev.kuberig") version "0.0.35"
 }
+
+kuberig {
+  kubernetes("v1.16.1")
+}
