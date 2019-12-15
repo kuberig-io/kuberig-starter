@@ -9,7 +9,7 @@ repositories {
 }
 
 plugins {
-  id("eu.rigeldev.kuberig") version "0.0.35"
+  id("eu.rigeldev.kuberig") version "0.0.39"
 }
 
 kuberig {
