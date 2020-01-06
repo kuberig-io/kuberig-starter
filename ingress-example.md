@@ -28,7 +28,9 @@ $ ./gradlew deployLocaldevEnvironment
 Try the example ingress.
 ```shell script
 $ curl localhost/foo
+foo
 $ curl localhost/bar
+bar
 ```
 
 ## Cleanup
