@@ -10,23 +10,6 @@ import kinds.v1.service
 
 /**
  * Based on the 'Using Ingress' section of the Kind docs (https://kind.sigs.k8s.io/docs/user/ingress/)
- *
- * open a terminal in the project root directory.
- *
- * Create a local kind cluster with Ingress support by executing the following command.
- *      >
- *
- * :
- *      >
- *
- *      >
- *
- *
- *      >
- *      > curl localhost/bar
- *
- * Cleaning up:
- *      > kind delete cluster
  */
 class IngressExample {
 
