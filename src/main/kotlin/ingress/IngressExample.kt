@@ -9,7 +9,11 @@ import kinds.v1.pod
 import kinds.v1.service
 
 /**
- * Based on the 'Using Ingress' section of the Kind docs (https://kind.sigs.k8s.io/docs/user/ingress/)
+ * Based on the <a href="https://kind.sigs.k8s.io/docs/user/ingress/">Using Ingress</a> section of the Kind docs.
+ *
+ * This is only a one-on-one mapping!
+ *
+ * Too learn how the KubeRig DSL can take it to the next level check out the the <a href="https://teyckmans.github.io/kuberig/#/dsl-intro">DSL intro</a>.
  */
 class IngressExample {
 
