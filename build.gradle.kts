@@ -9,9 +9,9 @@ repositories {
 }
 
 plugins {
-  id("eu.rigeldev.kuberig") version "0.0.40"
+  id("eu.rigeldev.kuberig") version "0.0.42"
 }
 
 kuberig {
-  kubernetes("v1.16.1")
+  kubernetes("v1.16.6")
 }
