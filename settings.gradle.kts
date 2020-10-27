@@ -8,3 +8,15 @@
  */
 
 rootProject.name = "kuberig-starter"
+
+pluginManagement {
+    val kuberigVersion: String by settings
+
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "io.kuberig.kuberig") {
+                useModule("io.kuberig:kuberig-gradle-plugin:${kuberigVersion}")
+            }
+        }
+    }
+}
