@@ -1,6 +1,6 @@
 package ingress
 
-import eu.rigeldev.kuberig.core.annotations.EnvResource
+import io.kuberig.annotations.EnvResource
 import kinds.extensions.v1beta1.IngressDsl
 import kinds.extensions.v1beta1.ingress
 import kinds.v1.PodDsl
