@@ -4,14 +4,14 @@
  * This is a general purpose Gradle build.
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
-repositories {
-  jcenter()
-}
-
 plugins {
   id("io.kuberig.kuberig")
 }
 
+repositories {
+  jcenter()
+}
+
 kuberig {
-  kubernetes("v1.16.6")
+  kubernetes("v1.19.3")
 }
