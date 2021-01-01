@@ -52,6 +52,7 @@ class IngressExample {
                     port {
                         // Default port used by the image
                         port(5678)
+                        protocol("TCP")
                     }
                 }
             }
@@ -93,6 +94,7 @@ class IngressExample {
                     port {
                         // Default port used by the image
                         port(5678)
+                        protocol("TCP")
                     }
                 }
             }
