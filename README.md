@@ -1,4 +1,4 @@
-[![KubeRig Logo](https://github.com/kuberig-io/kuberig/blob/master/docs/images/website_logo_transparent_background.png)](https://kuberig.io)
+[![KubeRig Logo](https://kuberig.io/img/logo/website_logo_transparent_background.png)](https://kuberig.io)
 
 # kuberig-starter
 
@@ -6,4 +6,4 @@ You can start a new KubeRig project easily from this repo. Just clone/download a
 
 ## User Manual
 
-For more information check the [KubeRig User Manual](https://teyckmans.github.io/kuberig/#/).
+For more information check the [KubeRig User Manual](https://kuberig.io/docs/home.html).
