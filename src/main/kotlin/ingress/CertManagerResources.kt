@@ -6,6 +6,10 @@ import kinds.cert_manager.io.v1.certificate
 import kinds.cert_manager.io.v1.issuer
 
 /**
+ * Deploy cert-manager.
+ *
+ * $ kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.1.0/cert-manager.yaml
+ *
  * Depending on your kubernetes cluster it may be needed to grant cluster-admin to the kuberig service account for
  * this example to work.
  *
