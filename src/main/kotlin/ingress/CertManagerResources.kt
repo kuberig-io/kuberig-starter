@@ -5,6 +5,12 @@ import io.kuberig.dsl.support.DslResourceEmitter.emit
 import kinds.cert_manager.io.v1.certificate
 import kinds.cert_manager.io.v1.issuer
 
+/**
+ * Depending on your kubernetes cluster it may be needed to grant cluster-admin to the kuberig service account for
+ * this example to work.
+ *
+ * $ kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --serviceaccount=default:kuberig
+ */
 class CertManagerResources {
 
     @EnvResources
