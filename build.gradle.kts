@@ -12,5 +12,5 @@ kuberig {
 }
 
 dependencies {
-  implementation("io.kuberig:cert-manager:0.1.0")
+  implementation("io.kuberig.crd.dsl:cert-manager:0.1.0")
 }
