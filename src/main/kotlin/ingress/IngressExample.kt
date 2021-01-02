@@ -13,7 +13,7 @@ import kinds.v1.service
  *
  * This is only a one-on-one mapping!
  *
- * Too learn how the KubeRig DSL can take it to the next level check out the the <a href="https://teyckmans.github.io/kuberig/#/dsl-intro">DSL intro</a>.
+ * Too learn how the KubeRig DSL can take it to the next level check out the the <a href="https://kuberig.io/docs/dsl-intro">DSL intro</a>.
  */
 class IngressExample {
 
@@ -50,7 +50,6 @@ class IngressExample {
                 selector("app", "foo")
                 ports {
                     port {
-                        // Default port used by the image
                         port(5678)
                         protocol("TCP")
                     }
@@ -92,7 +91,6 @@ class IngressExample {
                 selector("app", "bar")
                 ports {
                     port {
-                        // Default port used by the image
                         port(5678)
                         protocol("TCP")
                     }
