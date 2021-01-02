@@ -4,8 +4,13 @@ plugins {
 
 repositories {
   jcenter()
+  maven("https://dl.bintray.com/teyckmans/rigeldev-oss-maven")
 }
 
 kuberig {
   kubernetes("v1.20.0")
+}
+
+dependencies {
+  implementation("io.kuberig:cert-manager:0.1.0")
 }
